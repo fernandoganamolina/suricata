@@ -1,0 +1,121 @@
+  .navbar{
+      background-color: #E83E8C;
+      padding: 10px 40px;
+  }
+  .navbar p{
+      width: 20vw;
+  }
+  .navbar-nav{
+      gap:40px;
+      width: 80vw;
+      justify-content: right;
+  }
+  .nav-item a{
+      color:white;
+      text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  }
+  header p{
+      font-size: 2.3em;
+      font-weight: 500;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+  }
+  footer{
+      background-color: #E83E8C;
+      padding:20px 0px;
+      text-align: center;
+  }
+  footer div{
+      /* height: 10vw; */
+      margin:5vh 48vw;
+  }
+  .icons-section{
+      background-color: #17A2B8;
+      margin:0;
+      padding:40px;
+      text-align: center;
+  }
+  .icons-section span{
+      font-size: 2.5em;
+      color: white;
+      font-weight: bold;
+      padding:20px;
+  }
+  .icons-section i{
+      margin: 0 10px;
+  }
+  .card{
+      margin:2vh 1vw;
+      margin-bottom:10vh;
+      padding: 0;
+  }
+  .card-header{
+      margin: 0; 
+      padding: 0;
+  }
+  .card-body p{
+      font-size: 1.3em;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+  }
+  .card-footer{
+      margin:0;
+      padding:0;
+      background-color: white;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .card-footer div{
+      border-bottom: 1px solid #bbbbbb;
+      padding: 10px 20px;
+      font-size: 0.8em;
+  }
+  .opciones a{
+      text-decoration: none;
+      font-size: 0.9em;
+      margin-right:20px;
+  }
+  .productos{
+      margin: 10vh 10vw;
+      display: grid;
+      grid-template-columns: 33% 33% 34%;
+      gap:10px;
+  }
+  @media (max-width: 500px) {
+      .navbar{
+          padding: 10px;
+      }
+      .navbar p{
+          width: 40vw;
+      }   
+      .navbar-nav{
+          margin:15px;
+          gap:10px;
+      }
+      footer div{
+          /* height: 10vw; */
+          margin:5vh 45vw;
+      }
+      .card{
+            margin:5vh 1vw;
+            padding: 0;
+      }
+      .productos{
+      /* background-color: #e6e6e6; */
+          margin: 2vh 5vw;
+          display: grid;
+          grid-template-columns: 100%;
+          gap:10px;
+          padding: 0;
+      }
+  }
